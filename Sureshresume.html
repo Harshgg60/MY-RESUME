@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suresh Kumar Srivastava - Resume & Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-50 text-gray-800;
+        }
+        /* Custom scrollbar for a cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-900">Suresh Kumar Srivastava</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">Skills</a>
+                <a href="#experience" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">Experience</a>
+                <a href="#education" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">Education</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="menu-button" class="md:hidden text-gray-600 hover:text-blue-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md rounded-b-lg py-2">
+            <a href="#about" class="block px-4 py-2 text-gray-800 hover:bg-gray-200 transition-colors duration-300">About</a>
+            <a href="#skills" class="block px-4 py-2 text-gray-800 hover:bg-gray-200 transition-colors duration-300">Skills</a>
+            <a href="#experience" class="block px-4 py-2 text-gray-800 hover:bg-gray-200 transition-colors duration-300">Experience</a>
+            <a href="#education" class="block px-4 py-2 text-gray-800 hover:bg-gray-200 transition-colors duration-300">Education</a>
+            <a href="#contact" class="block px-4 py-2 text-gray-800 hover:bg-gray-200 transition-colors duration-300">Contact</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+
+        <!-- Hero/About Section -->
+        <section id="about" class="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-12 mb-12">
+            <img src="https://placehold.co/200x200/4F46E5/fff?text=Photo" alt="Profile Picture" class="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-white">
+            <div class="text-center md:text-left">
+                <h1 class="text-5xl font-extrabold text-gray-900 leading-tight">Suresh Kumar Srivastava</h1>
+                <p class="text-xl text-blue-600 font-semibold mt-2">Regional Business Development Lead</p>
+                <p class="text-gray-600 mt-4 max-w-2xl">
+                    Accomplished sales and distribution leader with over 20 years of proven success in the FMCG and Ayurvedic sectors. I am experienced in driving revenue growth and expanding market footprint across urban and rural areas. I am an expert in crafting and executing innovative market entry and channel strategies, and I am passionate about building and mentoring high-performing teams.
+                </p>
+                <div class="mt-6 flex justify-center md:justify-start space-x-4">
+                    <a href="mailto:s.kumarsri55@gmail.com" class="text-gray-600 hover:text-blue-600 transition-colors duration-300"><i class="fas fa-envelope fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/suresh-kumar-srivastava-413720b9/" class="text-gray-600 hover:text-blue-600 transition-colors duration-300"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors duration-300"><i class="fab fa-github-square fa-2x"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-white p-8 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2 inline-block">Core Competencies</h2>
+            <div class="flex flex-wrap gap-4">
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Sales Planning & Execution</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Market Expansion & Penetration</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Revenue & Profit Growth</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Channel & Distribution Management</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Team Leadership & Training</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Trade Marketing</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Key Account Management</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Competitive Market Analysis</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Product Launch Management</span>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2 inline-block">Work Experience</h2>
+            <div class="space-y-8">
+                <!-- Baidyanath -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-semibold text-gray-900">Area Sales Manager</h3>
+                        <span class="text-gray-500 text-sm">2025 – Present</span>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-2">Baidyanath Ayurved Bhawan Pvt. Ltd. | Varanasi, Uttar Pradesh</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Currently managing sales operations across assigned territories for Ayurvedic products.</li>
+                        <li>Driving revenue growth by expanding the distributor network and improving retailer engagement.</li>
+                        <li>Implementing effective trade schemes to improve secondary sales.</li>
+                        <li>Conducting competitor analysis and adapting strategies accordingly.</li>
+                    </ul>
+                </div>
+                <!-- Dabur India Limited - Territory Manager -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-semibold text-gray-900">Territory Manager</h3>
+                        <span class="text-gray-500 text-sm">2024 – 2025</span>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-2">Dabur India Limited | Location</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Managed end-to-end sales cycle, including planning, execution, and monitoring.</li>
+                        <li>Led a team of Sales Officers and Senior Sales Officers to ensure they met targets.</li>
+                        <li>Executed product launch campaigns and trade promotions with measurable success.</li>
+                        <li>Strengthened brand visibility through innovative merchandising and retail programs.</li>
+                    </ul>
+                </div>
+                 <!-- Dabur India Limited - Senior Sales Officer -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-semibold text-gray-900">Senior Sales Officer</h3>
+                        <span class="text-gray-500 text-sm">2013 – 2023</span>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-2">Dabur India Limited | Location</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Managed a larger territory with a significant increase in distributor base.</li>
+                        <li>Introduced innovative sales schemes that boosted retail productivity.</li>
+                        <li>Organized dealer meets and engagement programs to strengthen partnerships.</li>
+                        <li>Consistently ranked among the top-performing sales leaders in the region.</li>
+                    </ul>
+                </div>
+                 <!-- Dabur India Limited - Sales Officer -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-semibold text-gray-900">Sales Officer</h3>
+                        <span class="text-gray-500 text-sm">2010 – 2013</span>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-2">Dabur India Limited | Location</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Handled a team of sales representatives and guided them towards achieving targets.</li>
+                        <li>Expanded the distributor network in assigned territories to increase market penetration.</li>
+                        <li>Worked closely with retailers to strengthen Dabur’s brand visibility.</li>
+                    </ul>
+                </div>
+                 <!-- Dabur India Limited - Sales Executive -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-semibold text-gray-900">Sales Executive</h3>
+                        <span class="text-gray-500 text-sm">2008 – 2010</span>
+                    </div>
+                    <p class="text-gray-600 font-medium mb-2">Dabur India Limited | Location</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Initiated career in frontline sales, building foundational knowledge of FMCG sales channels.</li>
+                        <li>Implemented company’s sales schemes and promotional offers at the ground level.</li>
+                        <li>Developed a strong rapport with retailers, ensuring repeat orders and loyalty.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2 inline-block">Education</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold text-gray-900">Bachelor of Arts (B.A.)</h3>
+                    <span class="text-gray-500 text-sm">Graduated in 2019</span>
+                </div>
+                <p class="text-gray-600 font-medium mb-1">Deen Dayal Upadhyay University, Gorakhpur</p>
+            </div>
+        </section>
+
+        <!-- Awards & Achievements Section -->
+        <section id="achievements" class="bg-white p-8 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2 inline-block">Awards & Achievements</h2>
+            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                <li>Consistently exceeded sales targets across multiple roles in Dabur.</li>
+                <li>Successfully managed transitions during promotions and role expansions.</li>
+                <li>Awarded for highest retail productivity in multiple regions.</li>
+                <li>Acted as a mentor for junior sales officers and trainees.</li>
+                <li>Implemented innovative schemes to boost rural sales.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white p-8 rounded-lg shadow-md text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2 inline-block">Contact Me</h2>
+            <p class="text-gray-600 mb-6 max-w-2xl mx-auto">Feel free to get in touch to discuss a project or just to say hello!</p>
+            <div class="space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row justify-center items-center">
+                <a href="mailto:s.kumarsri55@gmail.com" class="bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300">
+                    <i class="fas fa-envelope mr-2"></i>Email Me
+                </a>
+                <a href="tel:+91-9670997457" class="bg-gray-200 text-gray-800 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-gray-300 transition-colors duration-300">
+                    <i class="fas fa-phone mr-2"></i>Call Me
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-6 text-gray-500 text-sm border-t border-gray-200 mt-12">
+        &copy; 2024 Suresh Kumar Srivastava. All Rights Reserved.
+    </footer>
+
+    <!-- JavaScript for Mobile Menu and Smooth Scrolling -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuButton = document.getElementById('menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            // Toggle mobile menu
+            menuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    // Close the mobile menu if it's open
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
